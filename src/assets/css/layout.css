@@ -1,0 +1,40 @@
+/* markdown-it-container */
+.markdown-body .success {
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background: #f7f7f7;
+    border-left: solid 6px #58ad5a;
+    color: #58ad5a;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .markdown-body .info {
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background: #f7f7f7;
+    border-left: solid 6px #5bb1fc;
+    color: #5bb1fc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .markdown-body .warning {
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background: #f7f7f7;
+    border-left: solid 6px #efcc4c;
+    color: #efcc4c;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .markdown-body .danger {
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background: #f7f7f7;
+    border-left: solid 6px #ff3c3c;
+    color: #ff3c3c;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.22);
+  }
