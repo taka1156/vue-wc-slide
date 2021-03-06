@@ -12,6 +12,7 @@ import { defineComponent, PropType, computed } from "@vue/composition-api";
 import BaseText from "../../atoms/BaseText/BaseText.vue";
 import { md } from "@/plugins/MarkdownIt";
 import "github-markdown-css";
+import "@/assets/css/layout.css"; // markdown-it
 
 export default defineComponent({
   name: "PreviewArea",

@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:wc": "yarn build --target wc-async --name wc-slide",
+    "build:wc": "yarn build --target wc-async --name wc-slide src/components/organisms/Widget/Widget.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
