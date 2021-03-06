@@ -1,6 +1,6 @@
 <template>
   <div id="expand">
-    <preview-area :md-text="slide" />
+    <preview-area-it :md-text="slide" />
     <slider-ui
       :current-page="state.page"
       :max-page="maxPage"
@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType, reactive, computed } from "@vue/composition-api";
-import PreviewArea from "../../molecules/PreviewArea/PreviewArea.vue";
+import PreviewAreaIt from "../../molecules/PreviewArea/PreviewAreaIt.vue";
 import SliderUi from "../../molecules/SliderUi/SliderUi.vue";
 import { PLACEHOLDER_MARKDOWN as sampleText } from "@/constants/index";
 
@@ -32,7 +32,7 @@ interface ElementWithFullscreen extends HTMLElement {
 export default defineComponent({
   name: "SlideArea",
   components: {
-    "preview-area": PreviewArea,
+    "preview-area-it": PreviewAreaIt,
     "slider-ui": SliderUi
   },
   props: {

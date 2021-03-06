@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const highlight = require("highlight.js/lib/core"); // TODO: @typesがないのでそのうち対応する
-import "highlight.js/styles/github-gist.css";
 
 const markdown = require("highlight.js/lib/languages/markdown");
 const htmlbars = require("highlight.js/lib/languages/htmlbars");

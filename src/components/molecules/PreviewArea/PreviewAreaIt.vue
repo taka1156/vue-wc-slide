@@ -10,10 +10,10 @@
 <script lang="ts">
 import { defineComponent, PropType, computed } from "@vue/composition-api";
 import BaseText from "../../atoms/BaseText/BaseText.vue";
-import { md } from "@/plugins/Marked";
+import { md } from "@/plugins/MarkdownIt";
 
 export default defineComponent({
-  name: "PreviewArea",
+  name: "PreviewAreaIt",
   components: {
     "base-text": BaseText
   },
@@ -25,7 +25,7 @@ export default defineComponent({
   },
   setup(props) {
     const markedValue = computed(() => {
-      return md(props.mdText);
+      return md.render(props.mdText);
     });
     return {
       props,

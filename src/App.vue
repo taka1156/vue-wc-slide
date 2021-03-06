@@ -1,18 +1,21 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <Widget :md="TEST_MARKDOWN" />
+    <SlideArea class="slide" :md-text="TEST_MARKDOWN" />
+    <SlideAreaIt class="slide" :md-text="TEST_MARKDOWN" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "@vue/composition-api";
-import Widget from "@/components/organisms/Widget/Widget.vue";
+import SlideArea from "@/components/organisms/SlideArea/SlideArea.vue";
+import SlideAreaIt from "@/components/organisms/SlideArea/SlideAreaIt.vue";
 import { TEST_MARKDOWN } from "@/constants/index";
 
 export default defineComponent({
   components: {
-    Widget
+    SlideArea,
+    SlideAreaIt
   },
   setup() {
     return {
@@ -30,5 +33,9 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.slide {
+  margin: 30px;
 }
 </style>

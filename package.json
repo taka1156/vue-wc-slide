@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:wc": "yarn build --target wc-async --name wc-slide src/components/organisms/Widget/Widget.vue",
+    "build:wc": "yarn build --target wc-async --name wc-slide src/components/organisms/SlideArea/SlideArea.vue",
+    "build:wc-it": "yarn build --target wc-async --name wc-slide src/components/organisms/SlideArea/SlideAreaIt.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -17,11 +18,13 @@
     "markdown-it-checkbox": "^1.1.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-emoji": "^2.0.0",
+    "marked": "^2.0.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@types/markdown-it-container": "^2.0.3",
     "@types/markdown-it-emoji": "^2.0.0",
+    "@types/marked": "^1.2.2",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",

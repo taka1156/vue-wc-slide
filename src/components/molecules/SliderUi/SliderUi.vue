@@ -19,10 +19,6 @@ import { defineComponent, SetupContext, PropType } from "@vue/composition-api";
 import BaseBtn from "../../atoms/BaseBtn/BaseBtn.vue";
 import BaseInputRange from "../../atoms/BaseInputRange/BaseInputRange.vue";
 
-type SliderState = {
-  page: number;
-};
-
 export default defineComponent({
   name: "SliderUi",
   components: {
