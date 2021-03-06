@@ -42,7 +42,7 @@ export default defineComponent({
 
 .preview-area {
   width: 100%;
-  height: 470px;
+  height: 90%;
   margin: 1px;
   overflow-y: scroll;
   background-color: white;

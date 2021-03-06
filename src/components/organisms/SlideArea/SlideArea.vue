@@ -121,15 +121,3 @@ export default defineComponent({
   }
 });
 </script>
-
-<style scoped>
-:deep(.preview-area--expand) {
-  height: 430px;
-}
-
-#expand:-webkit-full-screen :deep(.preview-area--expand) {
-  width: 96vw;
-  height: 90vh;
-  margin: 0 auto;
-}
-</style>
